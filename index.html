@@ -150,6 +150,11 @@ html{scroll-behavior:auto}
 }
 @media(max-width:800px){.stats{grid-template-columns:1fr 1fr;padding-bottom:56px}.portrait-wrap{margin-top:8px}.badge{left:auto;right:-6px}.navright{gap:0}.navlinks{display:none}.hero{grid-template-columns:1fr;padding-top:75px}.cards,.wide{grid-template-columns:1fr}.principles{grid-template-columns:1fr 1fr}.section{padding:62px 0}.sectionhead{display:block}.sectionhead p{margin-top:14px}.hero h1{font-size:54px}}
 @media(max-width:480px){.wrap{padding:0 20px}.stats{grid-template-columns:1fr 1fr}.principles{grid-template-columns:1fr}.hero h1{font-size:47px}.lead{font-size:18px}}
+/* ===== philosophy ===== */
+.philosophy{margin:0 0 40px;padding:6px 0 6px 28px;border-left:2px solid var(--accent);max-width:760px}
+.philosophy h3{font-family:"Instrument Serif",Georgia,serif;font-style:italic;font-weight:400;font-size:clamp(30px,4.2vw,46px);line-height:1.08;letter-spacing:-.02em;margin:0 0 16px;color:var(--text)}
+.philosophy p{margin:0;font-size:18px;line-height:1.65;color:var(--lead);max-width:620px}
+@media(max-width:480px){.philosophy{padding-left:18px}.philosophy p{font-size:16.5px}}
 </style>
 </head>
 <body>
@@ -204,6 +209,10 @@ html{scroll-behavior:auto}
 
 <section class="section">
 <div class="sectionhead rv"><h2>How I work</h2><p>Engineering depth gives me a practical product lens: I can evaluate feasibility, make trade-offs, and stay close to implementation.</p></div>
+<blockquote class="philosophy rv">
+<h3>Start with how users should feel, then prove it.</h3>
+<p>Products that work get tried. Products that feel right get kept. I design for the feeling first, build the simplest thing that creates it, and let real users tell me if I got it right.</p>
+</blockquote>
 <div class="principles">
 <div class="principle rv" style="--d:0"><b>Discover</b><span>Talk to users and stakeholders. Understand the real workflow.</span></div>
 <div class="principle rv" style="--d:1"><b>Define</b><span>Turn ambiguous requests into clear problems and requirements.</span></div>
